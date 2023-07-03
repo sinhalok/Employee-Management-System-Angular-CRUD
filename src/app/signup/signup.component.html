@@ -1,0 +1,114 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark  ">
+  <!-- Container wrapper -->
+  <div class="container">
+      <img src="../../assets/images/logo.png" alt="" height="70px" width="auto">
+      <a class="navbar-brand text mb-1">Navbar</a>
+
+      <!-- Toggle button -->
+      <button class="navbar-toggler text-white" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarButtonsExample">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+              </li>
+          </ul>
+          <!-- Left links -->
+
+          <ul class="navbar-nav d-flex flex-row">
+              <!-- Icons -->
+              <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="https://www.youtube.com/@logsewa">
+                      <i class="fa fa-youtube fa-2x " style="color: red;" aria-hidden="true"></i>
+                  </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="https://www.facebook.com/Logsewaa/">
+                      <i class="fa fa-facebook fa-2x " style="color: blue;" aria-hidden="true"></i>
+                  </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="https://www.instagram.com/logsewa/">
+                      <i class="fa fa-instagram fa-2x " style="color: red;" aria-hidden="true"></i>
+                  </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="https://github.com/sinhalok">
+                      <i class="fa fa-github fa-2x " style="color: black;" aria-hidden="true"></i>
+                  </a>
+              </li>
+       
+            
+          </ul>
+          
+      </div>
+      <!-- Collapsible wrapper -->
+  </div>
+  
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+<hr>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mt-5">
+                <div class="text-center">
+                    <h1>Register</h1>
+                    <h6>Please Enter Email & Password!!</h6>
+                </div>
+               
+                    <form [formGroup]="signupForm"  (ngSubmit)="signUp()">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                            <input type="text" formControlName="fullName" class="form-control" id="fullName" aria-describedby="emailHelp">
+  
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+                            <input type="number" formControlName="mobile" class="form-control" id="mobile" aria-describedby="emailHelp">
+  
+                          </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" formControlName="email" class="form-control" id="email" aria-describedby="emailHelp">
+
+                        </div>
+
+         
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" formControlName="password" class="form-control" id="password">
+                        </div>
+  
+                        <button type="submit" class="btn btn-primary" >Register</button>
+                      </form><br/>
+                      <a routerLink="/login">For Login --> Click Here</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Code -->
+<div class="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="company-name">All Rights Reserved. &copy; 2023 <a href="https://www.facebook.com/bitsandbytetech/">Bits And Byte Institute of Technology</a>
+          &nbsp; Design By :
+          <a href="https://www.facebook.com/profile.php?id=100086411650128" target="_blank">Alok Sinha</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

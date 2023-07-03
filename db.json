@@ -1,0 +1,54 @@
+{
+  "employeList": [
+    {
+      "id": 11,
+      "firstName": "Alok",
+      "lastName": "Sinha",
+      "email": "aloksinha@gmail.comm",
+      "mobile": 333333333334,
+      "salary": 999999999
+    },
+    {
+      "id": 12,
+      "firstName": "dd",
+      "lastName": "aa",
+      "email": "dd@gmail.com",
+      "mobile": 3343434334,
+      "salary": 2222222
+    },
+    {
+      "id": 13,
+      "firstName": "Amit",
+      "lastName": "Sinha",
+      "email": "amit@gmail.com",
+      "mobile": 4444444444,
+      "salary": 222222222
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullName": "alok",
+      "email": "alok@gmail.com",
+      "password": "1234",
+      "mobile": 23232,
+      "id": 2
+    },
+    {
+      "fullName": "Sunny",
+      "email": "sunny@gmail.com",
+      "password": "12345",
+      "mobile": 3322441234,
+      "id": 3
+    },
+    {
+      "fullName": "Chotee",
+      "email": "chotee@gmail.com",
+      "password": "12345",
+      "mobile": 33332222,
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

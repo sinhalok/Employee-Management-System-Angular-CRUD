@@ -1,0 +1,44 @@
+
+
+
+.card{
+    
+    border: none;
+    width: 500px;
+    padding: 40px;
+  
+    top:40%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+   
+
+    color: white;
+    
+}
+
+a{
+    color:white;
+}
+
+
+/* Footer */
+.copyright{
+	margin-top: 20px;
+	position: relative;
+	display: block;
+	background-color: #010101;
+	border-top: 1px solid rgba(207, 166, 113);
+	padding: 10px 0;
+	z-index: 1;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.copyright .company-name{
+	font-size: 16px;
+	text-align: center;
+}
+.copyright .company-name a{
+	font-size: 16px;
+}
